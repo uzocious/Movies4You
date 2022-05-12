@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anpSearch" minHeight="0.0" minWidth="0.0" prefHeight="730.0" prefWidth="1333.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m4u.search.M4USearchController">
+   <children>
+      <Hyperlink layoutX="14.0" layoutY="84.0" onAction="#movie" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fx:id="imgvMovieImage" fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label fx:id="lblTitle" layoutX="14.0" layoutY="382.0" prefHeight="21.0" prefWidth="196.0" text="N/A">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="403.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblYear" layoutX="58.0" layoutY="403.0" prefHeight="21.0" prefWidth="45.0" text="N/A" />
+      <Label layoutX="103.0" layoutY="403.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuality" layoutX="169.0" layoutY="403.0" text="N/A" />
+      <Label fx:id="lblDuration" layoutX="14.0" layoutY="424.0" prefHeight="21.0" prefWidth="56.0" text="N/A" />
+      <Label layoutX="14.0" layoutY="445.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRentPrice" layoutX="58.0" layoutY="445.0" prefHeight="21.0" prefWidth="45.0" text="N/A" />
+      <Label layoutX="110.0" layoutY="445.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBuyPrice" layoutX="149.0" layoutY="445.0" prefHeight="21.0" prefWidth="53.0" text="N/A" />
+      <Label layoutX="14.0" layoutY="22.0" text="Result For:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="424.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRating" layoutX="132.0" layoutY="424.0" prefHeight="21.0" prefWidth="36.0" text="N/A" />
+      <Label fx:id="lblSerachText" layoutX="151.0" layoutY="22.0" prefHeight="29.0" prefWidth="1107.0" text="N/A">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

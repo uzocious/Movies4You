@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anpSport" minHeight="0.0" minWidth="0.0" prefHeight="730.0" prefWidth="1333.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m4u.genre.M4USportController">
+   <children>
+      <Hyperlink layoutX="14.0" layoutY="84.0" onAction="#movie11" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img11.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="14.0" layoutY="382.0" prefHeight="21.0" prefWidth="196.0" text="Yip Man">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="403.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="403.0" prefHeight="21.0" prefWidth="45.0" text="2008" />
+      <Label layoutX="103.0" layoutY="403.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="403.0" text="HD - 4K" />
+      <Label layoutX="14.0" layoutY="424.0" text="1h 48m" />
+      <Label layoutX="14.0" layoutY="445.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="445.0" prefHeight="21.0" prefWidth="45.0" text="£0.99" />
+      <Label layoutX="103.0" layoutY="445.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="445.0" text="£5.99" />
+      <Label layoutX="68.0" layoutY="424.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="424.0" text="8.1" />
+      <Hyperlink layoutX="275.0" layoutY="84.0" onAction="#movie12" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img12.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="275.0" layoutY="382.0" prefHeight="21.0" prefWidth="196.0" text="Creed II">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="403.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="403.0" prefHeight="21.0" prefWidth="45.0" text="2018" />
+      <Label layoutX="364.0" layoutY="403.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="403.0" text="HD - 4K" />
+      <Label layoutX="275.0" layoutY="424.0" text="2h 10m" />
+      <Label layoutX="275.0" layoutY="445.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="445.0" prefHeight="21.0" prefWidth="45.0" text="£6.99" />
+      <Label layoutX="364.0" layoutY="445.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="403.0" layoutY="445.0" text="£9.99" />
+      <Label layoutX="336.0" layoutY="424.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="424.0" text="7.7" />
+      <Label layoutX="15.0" layoutY="22.0" text="Sport">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

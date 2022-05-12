@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anpFamilySafeON" minHeight="0.0" minWidth="0.0" prefHeight="1300.0" prefWidth="1333.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="m4u.home.M4UFamilySafeONController">
+   <children>
+      <Hyperlink layoutX="14.0" layoutY="14.0" onAction="#movie1" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img1.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Hyperlink layoutX="293.0" layoutY="14.0" onAction="#movie2" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img2.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Hyperlink layoutX="567.0" layoutY="14.0" onAction="#movie3" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img3.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Hyperlink layoutX="840.0" layoutY="14.0" onAction="#movie4" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img4.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Hyperlink layoutX="1111.0" layoutY="14.0" onAction="#movie6" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img6.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="14.0" layoutY="312.0" prefHeight="21.0" prefWidth="196.0" text="Bad Boys for Life">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="333.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="333.0" prefHeight="21.0" prefWidth="45.0" text="2020" />
+      <Label layoutX="103.0" layoutY="333.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="333.0" text="HD - 4K" />
+      <Label layoutX="14.0" layoutY="354.0" text="2h 4m" />
+      <Label layoutX="14.0" layoutY="375.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="375.0" prefHeight="21.0" prefWidth="45.0" text="£5.49" />
+      <Label layoutX="103.0" layoutY="375.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="375.0" text="£9.99" />
+      <Label layoutX="293.0" layoutY="312.0" prefHeight="21.0" prefWidth="196.0" text="John Wick">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="333.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="333.0" prefHeight="21.0" prefWidth="45.0" text="2014 " />
+      <Label layoutX="382.0" layoutY="333.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="333.0" text="HD - 4K" />
+      <Label layoutX="293.0" layoutY="354.0" text="1h 41m" />
+      <Label layoutX="293.0" layoutY="375.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="375.0" prefHeight="21.0" prefWidth="45.0" text="£3.49" />
+      <Label layoutX="382.0" layoutY="375.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="375.0" text="£9.99" />
+      <Label layoutX="563.0" layoutY="312.0" prefHeight="21.0" prefWidth="196.0" text="Shrek the Third">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="563.0" layoutY="333.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="607.0" layoutY="333.0" prefHeight="21.0" prefWidth="45.0" text="2007" />
+      <Label layoutX="652.0" layoutY="333.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="718.0" layoutY="333.0" text="HD - 4K" />
+      <Label layoutX="563.0" layoutY="354.0" text="1h 33m" />
+      <Label layoutX="563.0" layoutY="375.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="607.0" layoutY="375.0" prefHeight="21.0" prefWidth="45.0" text="£2.49" />
+      <Label layoutX="652.0" layoutY="375.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="691.0" layoutY="375.0" text="£7.99" />
+      <Label layoutX="840.0" layoutY="312.0" prefHeight="21.0" prefWidth="196.0" text="Avengers: Infinity War">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="840.0" layoutY="333.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="884.0" layoutY="333.0" prefHeight="21.0" prefWidth="45.0" text="2018" />
+      <Label layoutX="929.0" layoutY="333.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="995.0" layoutY="333.0" text="HD - 4K" />
+      <Label layoutX="840.0" layoutY="354.0" text="2h 40m" />
+      <Label layoutX="840.0" layoutY="375.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="884.0" layoutY="375.0" prefHeight="21.0" prefWidth="45.0" text="£2.49" />
+      <Label layoutX="929.0" layoutY="375.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="968.0" layoutY="375.0" text="£9.99" />
+      <Label layoutX="1111.0" layoutY="312.0" prefHeight="21.0" prefWidth="196.0" text="Uncle Drew">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1111.0" layoutY="333.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1155.0" layoutY="333.0" prefHeight="21.0" prefWidth="45.0" text="2018" />
+      <Label layoutX="1200.0" layoutY="333.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1266.0" layoutY="333.0" text="HD - 4K" />
+      <Label layoutX="1111.0" layoutY="354.0" text="1h 44m" />
+      <Label layoutX="1111.0" layoutY="375.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1155.0" layoutY="375.0" prefHeight="21.0" prefWidth="45.0" text="£2.49" />
+      <Label layoutX="1200.0" layoutY="375.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1239.0" layoutY="375.0" text="£9.99" />
+      <Label layoutX="68.0" layoutY="354.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="354.0" text="7.2" />
+      <Label layoutX="360.0" layoutY="354.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="354.0" text="7.5" />
+      <Label layoutX="629.0" layoutY="354.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="686.0" layoutY="354.0" text="6.1" />
+      <Label layoutX="900.0" layoutY="354.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="957.0" layoutY="354.0" text="8.7" />
+      <Label layoutX="1172.0" layoutY="354.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1229.0" layoutY="354.0" text="5.7" />
+      <Hyperlink layoutX="14.0" layoutY="457.0" onAction="#movie8" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img8.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="14.0" layoutY="755.0" prefHeight="21.0" prefWidth="196.0" text="Hancock">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="776.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="776.0" prefHeight="21.0" prefWidth="45.0" text="2008" />
+      <Label layoutX="103.0" layoutY="776.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="776.0" text="HD - 4K" />
+      <Label layoutX="14.0" layoutY="797.0" text="2h 2m" />
+      <Label layoutX="14.0" layoutY="818.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="818.0" prefHeight="21.0" prefWidth="45.0" text="£5.49" />
+      <Label layoutX="103.0" layoutY="818.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="818.0" text="£12.99" />
+      <Label layoutX="68.0" layoutY="797.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="797.0" text="8.9" />
+      <Hyperlink layoutX="293.0" layoutY="457.0" onAction="#movie9" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img9.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="293.0" layoutY="755.0" prefHeight="21.0" prefWidth="196.0" text="Big Hero 6">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="776.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="776.0" prefHeight="21.0" prefWidth="45.0" text="2014" />
+      <Label layoutX="382.0" layoutY="776.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="776.0" text="HD - 4K" />
+      <Label layoutX="293.0" layoutY="797.0" text="1h 48m" />
+      <Label layoutX="293.0" layoutY="818.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="818.0" prefHeight="21.0" prefWidth="45.0" text="£3.49" />
+      <Label layoutX="382.0" layoutY="818.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="818.0" text="£9.99" />
+      <Label layoutX="347.0" layoutY="797.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="797.0" text="8.1" />
+      <Hyperlink layoutX="567.0" layoutY="457.0" onAction="#movie10" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img10.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="567.0" layoutY="755.0" prefHeight="21.0" prefWidth="196.0" text="Toy Story 4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="567.0" layoutY="776.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="611.0" layoutY="776.0" prefHeight="21.0" prefWidth="45.0" text="2019" />
+      <Label layoutX="656.0" layoutY="776.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="722.0" layoutY="776.0" text="HD - 4K" />
+      <Label layoutX="567.0" layoutY="797.0" text="1h 40m" />
+      <Label layoutX="567.0" layoutY="818.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="611.0" layoutY="818.0" prefHeight="21.0" prefWidth="45.0" text="£4.49" />
+      <Label layoutX="656.0" layoutY="818.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="695.0" layoutY="818.0" text="£9.99" />
+      <Label layoutX="621.0" layoutY="797.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="678.0" layoutY="797.0" text="8.2" />
+      <Hyperlink layoutX="840.0" layoutY="457.0" onAction="#movie11" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img11.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="840.0" layoutY="755.0" prefHeight="21.0" prefWidth="196.0" text="Yip Man">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="840.0" layoutY="776.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="884.0" layoutY="776.0" prefHeight="21.0" prefWidth="45.0" text="2008" />
+      <Label layoutX="929.0" layoutY="776.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="995.0" layoutY="776.0" text="HD - 4K" />
+      <Label layoutX="840.0" layoutY="797.0" text="1h 48m" />
+      <Label layoutX="840.0" layoutY="818.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="884.0" layoutY="818.0" prefHeight="21.0" prefWidth="45.0" text="£0.99" />
+      <Label layoutX="929.0" layoutY="818.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="968.0" layoutY="818.0" text="£5.99" />
+      <Label layoutX="894.0" layoutY="797.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="951.0" layoutY="797.0" text="8.1" />
+      <Hyperlink layoutX="1101.0" layoutY="457.0" onAction="#movie12" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img12.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="1101.0" layoutY="755.0" prefHeight="21.0" prefWidth="196.0" text="Creed II">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1101.0" layoutY="776.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1145.0" layoutY="776.0" prefHeight="21.0" prefWidth="45.0" text="2018" />
+      <Label layoutX="1190.0" layoutY="776.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1256.0" layoutY="776.0" text="HD - 4K" />
+      <Label layoutX="1101.0" layoutY="797.0" text="2h 10m" />
+      <Label layoutX="1101.0" layoutY="818.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1145.0" layoutY="818.0" prefHeight="21.0" prefWidth="45.0" text="£6.99" />
+      <Label layoutX="1190.0" layoutY="818.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1229.0" layoutY="818.0" text="£9.99" />
+      <Label layoutX="1162.0" layoutY="797.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1219.0" layoutY="797.0" text="7.7" />
+      <Hyperlink layoutX="14.0" layoutY="900.0" onAction="#movie13" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img13.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="14.0" layoutY="1198.0" prefHeight="21.0" prefWidth="196.0" text="Uncut Gems">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="1219.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="1219.0" prefHeight="21.0" prefWidth="45.0" text="2019" />
+      <Label layoutX="103.0" layoutY="1219.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="1219.0" text="HD - 4K" />
+      <Label layoutX="14.0" layoutY="1240.0" text="2h 40m" />
+      <Label layoutX="14.0" layoutY="1261.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="1261.0" prefHeight="21.0" prefWidth="45.0" text="£5.99" />
+      <Label layoutX="103.0" layoutY="1261.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="1261.0" text="£12.99" />
+      <Label layoutX="68.0" layoutY="1240.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="1240.0" text="8.1" />
+      <Hyperlink layoutX="293.0" layoutY="900.0" onAction="#movie14" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="199.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img14.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="293.0" layoutY="1198.0" prefHeight="21.0" prefWidth="196.0" text="Casino Royale">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="1219.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="1219.0" prefHeight="21.0" prefWidth="45.0" text="2006" />
+      <Label layoutX="382.0" layoutY="1219.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="1219.0" text="HD - 4K" />
+      <Label layoutX="293.0" layoutY="1240.0" text="2h 25m" />
+      <Label layoutX="293.0" layoutY="1261.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="1261.0" prefHeight="21.0" prefWidth="45.0" text="£2.49" />
+      <Label layoutX="382.0" layoutY="1261.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="1261.0" text="£7.99" />
+      <Label layoutX="347.0" layoutY="1240.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="1240.0" text="8.0" />
+      <Hyperlink layoutX="567.0" layoutY="900.0" onAction="#movie15" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img15.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="567.0" layoutY="1198.0" prefHeight="21.0" prefWidth="196.0" text="The Hunger Games">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="567.0" layoutY="1219.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="611.0" layoutY="1219.0" prefHeight="21.0" prefWidth="45.0" text="2012" />
+      <Label layoutX="656.0" layoutY="1219.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="722.0" layoutY="1219.0" text="HD - 4K" />
+      <Label layoutX="567.0" layoutY="1240.0" text="2h 22m" />
+      <Label layoutX="567.0" layoutY="1261.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="611.0" layoutY="1261.0" prefHeight="21.0" prefWidth="45.0" text="£2.49" />
+      <Label layoutX="656.0" layoutY="1261.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="695.0" layoutY="1261.0" text="£5.99" />
+      <Label layoutX="621.0" layoutY="1240.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="678.0" layoutY="1240.0" text="7.3" />
+      <Hyperlink layoutX="840.0" layoutY="900.0" onAction="#movie16" prefHeight="290.0" prefWidth="190.0">
+         <graphic>
+            <ImageView fitHeight="290.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../movieimage/img16.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </graphic>
+      </Hyperlink>
+      <Label layoutX="840.0" layoutY="1198.0" prefHeight="21.0" prefWidth="196.0" text="Jurassic World: Fallen Kingdom">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="840.0" layoutY="1219.0" prefHeight="21.0" prefWidth="44.0" text="Year:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="884.0" layoutY="1219.0" prefHeight="21.0" prefWidth="45.0" text="2018" />
+      <Label layoutX="929.0" layoutY="1219.0" text="Quality:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="995.0" layoutY="1219.0" text="HD - 4K" />
+      <Label layoutX="840.0" layoutY="1240.0" text="2h 4m" />
+      <Label layoutX="840.0" layoutY="1261.0" prefHeight="21.0" prefWidth="44.0" text="Rent:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="884.0" layoutY="1261.0" prefHeight="21.0" prefWidth="45.0" text="£2.49" />
+      <Label layoutX="929.0" layoutY="1261.0" text="Buy:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="968.0" layoutY="1261.0" text="£7.99" />
+      <Label layoutX="894.0" layoutY="1240.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="951.0" layoutY="1240.0" text="7.3" />
+   </children>
+</AnchorPane>

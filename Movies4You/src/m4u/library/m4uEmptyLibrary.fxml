@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anpEmptyLibrary" minHeight="0.0" minWidth="0.0" prefHeight="730.0" prefWidth="1333.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="336.0" fitWidth="332.0" layoutX="502.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/mVc.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="529.0" layoutY="488.0" text="Start your own collection">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="470.0" layoutY="530.0" text="Find a great new release or a classic to watch">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="509.0" layoutY="61.0" text="Movie Library Empty">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
